@@ -1,16 +1,17 @@
-import UIKit
+import Foundation
 
-var greeting = "Hello, playground"
-//Bài 1: Khai báo và sử dụng biến Tạo các biến để lưu thông tin cá nhân (tên, tuổi, chiều cao, cân nặng, địa chỉ) và in ra màn hình theo định dạng hồ sơ.
-var hoTen: String = "Trần Văn A"
-var tuoi: Int = 24
-var chieuCao: Float = 178
-var canNang: Float = 65
-var diaChi: String = "Hà Nội"
-print("Họ tên: \(hoTen)")
-print("Tuổi: \(tuoi)")
-print("Chiều cao: \(chieuCao) cm")
-print("Cân nặng: \(canNang) kg")
+func inThongTinCaNhan(hoTen: String, tuoi: Int, chieuCao: Float, canNang: Float, diaChi: String) {
+    print("Họ tên: \(hoTen)")
+    print("Tuổi: \(tuoi)")
+    print("Chiều cao: \(chieuCao) cm")
+    print("Cân nặng: \(canNang) kg")
+    print("Địa chỉ: \(diaChi)")
+}
 
+let hoTen = "Trần Văn A"
+let tuoi = 24
+let chieuCao: Float = 178
+let canNang: Float = 65
+let diaChi = "Hà Nội"
 
-print("Họ tên: \(hoTen) ,chiều cao: \(chieuCao) cm , tuổi: \(tuoi)")
+inThongTinCaNhan(hoTen: hoTen, tuoi: tuoi, chieuCao: chieuCao, canNang: canNang, diaChi: diaChi)
