@@ -1,6 +1,6 @@
 # Hoc-Nhanh-Swift
 50 Bài Tập Luyện Swift Từ Cơ Bản Đến Nâng Cao
-Phần 1: Cú pháp cơ bản và kiểu dữ liệu
+- Phần 1: Cú pháp cơ bản và kiểu dữ liệu
 Bài 1: Khai báo và sử dụng biến
 Tạo các biến để lưu thông tin cá nhân (tên, tuổi, chiều cao, cân nặng, địa chỉ) và in ra màn hình theo định dạng hồ sơ.
 
@@ -10,7 +10,7 @@ Viết chương trình nhập vào một số thực, hiển thị phần nguyê
 Bài 3: Tính toán cơ bản
 Viết chương trình tính chu vi và diện tích hình tròn với bán kính nhập vào từ người dùng.
 
-Phần 2: Cấu trúc điều khiển và vòng lặp
+- Phần 2: Cấu trúc điều khiển và vòng lặp
 Bài 4: Kiểm tra số chẵn lẻ
 Viết chương trình kiểm tra một số là chẵn hay lẻ, âm hay dương.
 
@@ -26,7 +26,7 @@ Viết hàm kiểm tra một số có phải số nguyên tố không và in ra 
 Bài 8: Dãy Fibonacci
 Viết chương trình in ra n số Fibonacci đầu tiên.
 
-Phần 3: Hàm (Functions)
+- Phần 3: Hàm (Functions)
 Bài 9: Tìm UCLN và BCNN
 Viết hai hàm để tìm ước chung lớn nhất (UCLN) và bội chung nhỏ nhất (BCNN) của hai số nguyên.
 
@@ -39,7 +39,7 @@ Viết hàm tính tổ hợp chập k của n: C(n,k) = n!/(k!(n-k)!).
 Bài 12: Hàm overloading
 Viết các hàm cùng tên tinhDienTich để tính diện tích hình vuông, hình chữ nhật, hình tam giác và hình tròn.
 
-Phần 4: Collections (Arrays, Dictionaries, Sets)
+- Phần 4: Collections (Arrays, Dictionaries, Sets)
 Bài 13: Sắp xếp mảng
 Viết hàm sắp xếp một mảng số nguyên theo thứ tự tăng dần và giảm dần.
 
@@ -55,7 +55,7 @@ Viết chương trình đếm tần suất xuất hiện của các từ trong m
 Bài 17: Sử dụng Set
 Viết hàm tìm các phần tử chung và khác nhau của hai mảng số nguyên (sử dụng Set).
 
-Phần 5: Optionals
+- Phần 5: Optionals
 Bài 18: Xử lý Optional
 Viết hàm chuyển đổi chuỗi thành số và thực hiện phép tính, xử lý trường hợp chuỗi không phải là số.
 
@@ -65,7 +65,7 @@ Tạo một cấu trúc dữ liệu lồng nhau (ví dụ: công ty > phòng ban
 Bài 20: Null Object Pattern
 Triển khai mẫu "Null Object Pattern" để xử lý trường hợp không tìm thấy dữ liệu.
 
-Phần 6: Enumerations
+- Phần 6: Enumerations
 Bài 21: Enum cơ bản
 Tạo enum cho các ngày trong tuần và viết hàm kiểm tra một ngày có phải là ngày cuối tuần không.
 
@@ -75,7 +75,7 @@ Tạo enum HinhHoc với các case hình vuông, hình chữ nhật, hình tròn
 Bài 23: Enum với Raw Values
 Tạo enum CapBac với raw values là lương cơ bản, và tính lương thực lãnh dựa vào hệ số.
 
-Phần 7: Structs và Classes
+- Phần 7: Structs và Classes
 Bài 24: Quản lý sinh viên
 Tạo struct SinhVien với các thuộc tính và phương thức, viết chương trình quản lý danh sách sinh viên.
 
@@ -88,7 +88,7 @@ Tạo hệ thống lớp cho thư viện đa phương tiện với class cha Phu
 Bài 27: Quản lý nhân viên
 Tạo hệ thống quản lý nhân viên với class NhanVien và các class con NhanVienChinhThuc, NhanVienPartTime, mỗi loại có cách tính lương khác nhau.
 
-Phần 8: Protocols và Extensions
+- Phần 8: Protocols và Extensions
 Bài 28: Protocol cơ bản
 Tạo protocol HinhHoc với các yêu cầu tính diện tích và chu vi, sau đó tạo các struct tuân thủ protocol này.
 
@@ -101,7 +101,7 @@ Viết extension cho kiểu Int với các phương thức kiểm tra số nguy�
 Bài 31: Protocol với Generic
 Tạo protocol StackType với các yêu cầu push, pop, peek và triển khai bằng generic struct.
 
-Phần 9: Error Handling
+- Phần 9: Error Handling
 Bài 32: Xử lý lỗi cơ bản
 Tạo enum Error cho ứng dụng tính toán và xử lý các trường hợp lỗi (chia cho 0, căn bậc 2 số âm).
 
@@ -111,7 +111,7 @@ Tạo hệ thống đăng nhập với xử lý lỗi cho các trường hợp s
 Bài 34: Rethrow Errors
 Viết hàm xử lý file có khả năng ném lại lỗi từ closure được truyền vào.
 
-Phần 10: Closures
+- Phần 10: Closures
 Bài 35: Sắp xếp với Closure
 Viết hàm sắp xếp mảng các đối tượng phức tạp (như sinh viên) theo nhiều tiêu chí khác nhau sử dụng closure.
 
