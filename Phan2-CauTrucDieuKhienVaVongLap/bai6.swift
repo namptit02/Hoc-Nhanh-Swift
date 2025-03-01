@@ -10,5 +10,4 @@ func bangCuuChuong(_n: Int) ->Void{
 print("Nhập vào số cần in bảng cửu chương: ")
 
 let x = readLine()
-
 bangCuuChuong(_n: Int(x!)!)
